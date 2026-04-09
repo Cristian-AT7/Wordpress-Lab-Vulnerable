@@ -22,5 +22,5 @@ Realizar pruebas de seguridad en un entorno controlado de WordPress vulnerable.
 - Uso de firewall web (WAF)
 
 ## 📸 Evidencias
-(Aquí pondrás capturas luego)
+
 
