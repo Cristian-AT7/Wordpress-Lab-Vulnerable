@@ -1,53 +1,53 @@
 # Wordpress-Lab-Vulnerable
 
-# WordPress Vulnerable Lab (Docker)
+## 🎯 Objective
+Conduct a security assessment on a vulnerable WordPress instance deployed in a controlled environment in order to identify and exploit known vulnerabilities.
 
-## 🎯 Objetivo
-Realizar una evaluación de seguridad sobre una instancia vulnerable de WordPress desplegada en un entorno controlado, con el fin de identificar y explotar vulnerabilidades conocidas.
-
-## 🧱 Entorno
-- Aplicación vulnerable obtenida desde Dockerlabs.es
-- Despliegue mediante Docker
-- Sistema atacante: Kali Linux
-- Red local aislada
+## 🧱 Environment
+- Vulnerable application obtained from Dockerlabs.es
+- Deployment using Docker
+- Attacker system: Kali Linux
+- Isolated local network
 
 ## ⚠️ Disclaimer
-Este laboratorio fue realizado en un entorno controlado y autorizado con fines estrictamente educativos.
+This lab was conducted in a controlled and authorized environment strictly for educational purposes.
 
-## 🚀 Despliegue del laboratorio
-1. Descarga del entorno vulnerable desde Dockerlabs
+## 🚀 Lab Setup
+1. Download the vulnerable environment from Dockerlabs
 
-## 🛠️ Herramientas utilizadas
-- Nmap (reconocimiento de red)
-- WPScan (enumeración de WordPress)
-- Netcat (Hailitar puerto para escucha)
-- Exploit público basado en CVE
-- Reverse shell (payload web)
+## 🛠️ Tools Used
+- Nmap (network reconnaissance)
+- WPScan (WordPress enumeration)
+- Netcat (reverse shell connection)
+- Public exploit based on CVE
+- Reverse shell payload
 
-## 🔍 Reconocimiento
-- Escaneo de puertos con Nmap para identificar servicios activos
-- Identificación de WordPress como CMS en ejecución
-- Enumeración de usuarios y plugins con WPScan
+## 🔍 Reconnaissance
+- Port scanning with Nmap to identify active services
+- Identification of WordPress as the running CMS
+- Enumeration of users and plugins using WPScan
 
-## 📌 Análisis de vulnerabilidades
-- Identificación de plugin vulnerable: Pie Register
-- Búsqueda de vulnerabilidad asociada mediante CVE
-- Confirmación de que la versión instalada es vulnerable
+## 📌 Vulnerability Analysis
+- Identification of vulnerable plugin: Pie Register
+- Research of associated vulnerability using CVE references
+- Confirmation that the installed version is vulnerable
 
-## 🚪 Explotación
-- Uso de exploit público dirigido a la vulnerabilidad de Pie Register
-- Manipulación de cookies para suplantación de sesión administrativa
-- Acceso no autorizado al panel de administración de WordPress
+## 🚪 Exploitation
+- Use of a public exploit targeting the Pie Register vulnerability
+- Cookie manipulation to achieve administrative session hijacking
+- Unauthorized access to the WordPress admin panel
 
-## 🧑‍💻 Post-explotación
-- Carga de reverse shell en el servidor
-- Establecimiento de conexión remota usando Netcat
-- Obtención de acceso al sistema desde la máquina atacante
+## 🧑‍💻 Post-Exploitation
+- Upload of a reverse shell to the target server
+- Establishment of a remote connection using Netcat
+- Gaining system-level access from the attacker machine
 
-## 🛡️ Mitigación
-- Actualización del plugin vulnerable a su última versión
-- Eliminación de plugins no confiables
-- Implementación de controles de autenticación seguros
-- Uso de firewall de aplicaciones web (WAF)
+## 🛡️ Mitigation
+- Update the vulnerable plugin to the latest version
+- Remove untrusted or unused plugins
+- Implement strong authentication controls
+- Deploy a Web Application Firewall (WAF)
 
-## 📸 Evidencias
+## 📸 Evidence
+(Screenshots stored in the /Screenshots directory)
+
